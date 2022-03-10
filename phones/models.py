@@ -2,7 +2,6 @@ from django.db import models
 
 
 class Phone(models.Model):
-    # objects = None
     id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=30)
     price = models.IntegerField()
